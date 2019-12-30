@@ -14,7 +14,7 @@
   },
   {
     "type": 1,
-    "title": "Kali",
+    "title": "KaliLinux",
     "name": "KaliLinux",
     "description": "Kali Linux",
     "categories": ["docker"],

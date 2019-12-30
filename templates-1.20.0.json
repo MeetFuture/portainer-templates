@@ -20,6 +20,7 @@
     "categories": ["docker"],
     "platform": "linux",
     "image": "kalilinux/kali-linux-docker:latest",
+    "logo": "https://www.kali.org/wp-content/uploads/2015/09/kali-2.0-website-logo.png",
     "ports": [
       "22:22/tcp"
     ],

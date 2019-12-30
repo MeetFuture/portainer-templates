@@ -14,6 +14,19 @@
   },
   {
     "type": 1,
+    "title": "Kali",
+    "description": "Kali Linux",
+    "categories": ["docker"],
+    "platform": "linux",
+    "image": "kalilinux/kali-linux-docker:latest",
+    "ports": [
+      "22/tcp"
+    ],
+    "volumes": [{ "container": "/root"}],
+    "interactive": true
+  },
+  {
+    "type": 1,
     "title": "Nginx",
     "description": "High performance web server",
     "categories": ["webserver"],

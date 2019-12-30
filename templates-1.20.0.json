@@ -15,15 +15,18 @@
   {
     "type": 1,
     "title": "Kali",
+    "name": "KaliLinux"
     "description": "Kali Linux",
     "categories": ["docker"],
     "platform": "linux",
     "image": "kalilinux/kali-linux-docker:latest",
     "ports": [
-      "22/tcp"
+      "22:22/tcp"
     ],
     "volumes": [{ "container": "/root"}],
-    "interactive": true
+    "interactive": true,
+    "hostname": "kali",
+    "restart_policy": "none"
   },
   {
     "type": 1,

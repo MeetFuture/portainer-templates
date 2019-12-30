@@ -2,6 +2,7 @@
   {
     "type": 1,
     "title": "Registry",
+    "name": "Registry",
     "description": "Docker image registry",
     "categories": ["docker"],
     "platform": "linux",
@@ -32,6 +33,7 @@
   {
     "type": 1,
     "title": "Nginx",
+    "name": "Nginx",
     "description": "High performance web server",
     "categories": ["webserver"],
     "platform": "linux",
@@ -46,6 +48,7 @@
   {
     "type": 1,
     "title": "Httpd",
+    "name": "Httpd",
     "description": "Open-source HTTP server",
     "categories": ["webserver"],
     "platform": "linux",
@@ -59,6 +62,7 @@
   {
     "type": 1,
     "title": "Caddy",
+    "name": "Caddy",
     "description": "HTTP/2 web server with automatic HTTPS",
     "categories": ["webserver"],
     "platform": "linux",
@@ -72,6 +76,7 @@
   {
     "type": 1,
     "title": "MySQL",
+    "name": "MySQL",
     "description": "The most popular open-source database",
     "categories": ["database"],
     "platform": "linux",
@@ -91,6 +96,7 @@
   {
     "type": 1,
     "title": "MariaDB",
+    "name": "MariaDB",
     "description": "Performance beyond MySQL",
     "categories": ["database"],
     "platform": "linux",
@@ -110,6 +116,7 @@
   {
     "type": 1,
     "title": "PostgreSQL",
+    "name": "PostgreSQL",
     "description": "The most advanced open-source database",
     "categories": ["database"],
     "platform": "linux",
@@ -133,6 +140,7 @@
   {
     "type": 1,
     "title": "Mongo",
+    "name": "Mongo",
     "description": "Open-source document-oriented database",
     "categories": ["database"],
     "platform": "linux",
@@ -146,6 +154,7 @@
   {
     "type": 1,
     "title": "CockroachDB",
+    "name": "CockroachDB",
     "description": "An open-source, survivable, strongly consistent, scale-out SQL database",
     "categories": ["database"],
     "platform": "linux",
@@ -161,6 +170,7 @@
   {
     "type": 1,
     "title": "CrateDB",
+    "name": "CrateDB",
     "description": "An open-source distributed SQL database",
     "categories": ["database"],
     "platform": "linux",
@@ -175,6 +185,7 @@
   {
     "type": 1,
     "title": "Elasticsearch",
+    "name": "Elasticsearch",
     "description": "Open-source search and analytics engine",
     "categories": ["database"],
     "platform": "linux",
@@ -189,6 +200,7 @@
   {
     "type": 1,
     "title": "Gitlab CE",
+    "name": "Gitlab CE",
     "description": "Open-source end-to-end software development platform",
     "note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
     "categories": ["development", "project-management"],
@@ -209,6 +221,7 @@
   {
     "type": 1,
     "title": "Minio",
+    "name": "Minio",
     "description": "A distributed object storage server built for cloud applications and devops",
     "categories": ["storage"],
     "platform": "linux",
@@ -233,6 +246,7 @@
   {
     "type": 1,
     "title": "Scality S3",
+    "name": "Scality S3",
     "description": "Standalone AWS S3 protocol server",
     "categories": ["storage"],
     "platform": "linux",
@@ -256,6 +270,7 @@
   {
     "type": 1,
     "title": "SQL Server",
+    "name": "SQL Server",
     "description": "Microsoft SQL Server on Linux",
     "categories": ["database"],
     "platform": "linux",
@@ -279,6 +294,7 @@
   {
     "type": 1,
     "title": "SQL Server",
+    "name": "SQL Server",
     "description": "Microsoft SQL Server Developer for Windows containers",
     "categories": ["database"],
     "platform": "windows",
@@ -303,6 +319,7 @@
   {
     "type": 1,
     "title": "SQL Server Express",
+    "name": "SQL Server Express",
     "description": "Microsoft SQL Server Express for Windows containers",
     "categories": ["database"],
     "platform": "windows",
@@ -327,6 +344,7 @@
   {
     "type": 1,
     "title": "IronFunctions API",
+    "name": "IronFunctions API",
     "description": "Open-source serverless computing platform",
     "categories": ["serverless"],
     "platform": "linux",
@@ -341,6 +359,7 @@
   {
     "type": 1,
     "title": "IronFunctions UI",
+    "name": "IronFunctions UI",
     "description": "Open-source user interface for IronFunctions",
     "categories": ["serverless"],
     "platform": "linux",
@@ -361,6 +380,7 @@
   {
     "type": 1,
     "title": "Solr",
+    "name": "Solr",
     "description": "Open-source enterprise search platform",
     "categories": ["search-engine"],
     "platform": "linux",
@@ -374,6 +394,7 @@
   {
     "type": 1,
     "title": "Redis",
+    "name": "Redis",
     "description": "Open-source in-memory data structure store",
     "categories": ["database"],
     "platform": "linux",
@@ -387,6 +408,7 @@
   {
     "type": 1,
     "title": "RabbitMQ",
+    "name": "RabbitMQ",
     "description": "Highly reliable enterprise messaging system",
     "categories": ["messaging"],
     "platform": "linux",
@@ -401,6 +423,7 @@
   {
     "type": 1,
     "title": "Ghost",
+    "name": "Ghost",
     "description": "Free and open-source blogging platform",
     "categories": ["blog"],
     "note": "Access the blog management interface under <code>/ghost/</code>.",
@@ -415,6 +438,7 @@
   {
     "type": 1,
     "title": "Plesk",
+    "name": "Plesk",
     "description": "WebOps platform and hosting control panel",
     "categories": ["CMS"],
     "platform": "linux",
@@ -428,6 +452,7 @@
   {
     "type": 1,
     "title": "Joomla",
+    "name": "Joomla",
     "description": "Another free and open-source CMS",
     "categories": ["CMS"],
     "platform": "linux",
@@ -452,6 +477,7 @@
   {
     "type": 1,
     "title": "Drupal",
+    "name": "Drupal",
     "description": "Open-source content management framework",
     "categories": ["CMS"],
     "platform": "linux",
@@ -465,6 +491,7 @@
   {
     "type": 1,
     "title": "Plone",
+    "name": "Plone",
     "description": "A free and open-source CMS built on top of Zope",
     "categories": ["CMS"],
     "platform": "linux",
@@ -478,6 +505,7 @@
   {
     "type": 1,
     "title": "Magento 2",
+    "name": "Magento 2",
     "description": "Open-source e-commerce platform",
     "categories": ["CMS"],
     "platform": "linux",
@@ -493,6 +521,7 @@
   {
     "type": 1,
     "title": "Sematext Docker Agent",
+    "name": "Sematext Docker Agent",
     "description": "Collect logs, metrics and docker events",
     "categories": ["Log Management", "Monitoring"],
     "platform": "linux",
@@ -520,6 +549,7 @@
   {
     "type": 1,
     "title": "Datadog agent",
+    "name": "Datadog agent",
     "description": "Collect events and metrics",
     "categories": ["Monitoring"],
     "platform": "linux",
@@ -552,6 +582,7 @@
   {
     "type": 1,
     "title": "Mautic",
+    "name": "Mautic",
     "description": "Open-source marketing automation platform",
     "categories": ["marketing"],
     "platform": "linux",
@@ -576,6 +607,7 @@
   {
     "type": 1,
     "title": "Wowza",
+    "name": "Wowza",
     "description": "Streaming media server",
     "categories": ["streaming"],
     "platform": "linux",
@@ -603,6 +635,7 @@
   {
     "type": 1,
     "title": "Jenkins",
+    "name": "Jenkins",
     "description": "Open-source continuous integration tool",
     "categories": ["continuous-integration"],
     "platform": "linux",
@@ -623,6 +656,7 @@
   {
     "type": 1,
     "title": "Redmine",
+    "name": "Redmine",
     "description": "Open-source project management tool",
     "categories": ["project-management"],
     "platform": "linux",
@@ -636,6 +670,7 @@
   {
     "type": 1,
     "title": "Odoo",
+    "name": "Odoo",
     "description": "Open-source business apps",
     "categories": ["project-management"],
     "platform": "linux",
@@ -664,6 +699,7 @@
   {
     "type": 1,
     "title": "Urbackup",
+    "name": "Urbackup",
     "description": "Open-source network backup",
     "categories": ["backup"],
     "platform": "linux",
@@ -678,6 +714,7 @@
   {
     "type": 1,
     "title": "File browser",
+    "name": "File browser",
     "description": "A web file manager",
     "note": "Default credentials: admin/admin",
     "categories": ["filesystem", "storage"],
@@ -693,6 +730,7 @@
   {
     "type": 1,
     "title": "CommandBox",
+    "name": "CommandBox",
     "description": "ColdFusion (CFML) CLI",
     "categories": ["development"],
     "platform": "linux",
@@ -711,6 +749,7 @@
   {
     "type": 1,
     "title": "ContentBox",
+    "name": "ContentBox",
     "description": "Open-source modular CMS",
     "categories": ["CMS"],
     "platform": "linux",
@@ -765,6 +804,7 @@
   {
     "type": 2,
     "title": "IronFunctions",
+	"name": "IronFunctions",
     "description": "Open-source serverless computing platform",
     "note": "Deploys the IronFunctions API and UI.",
     "categories": ["serverless"],
@@ -778,6 +818,7 @@
   {
     "type": 2,
     "title": "CockroachDB",
+	"name": "CockroachDB",
     "description": "CockroachDB cluster",
     "note": "Deploys an insecure CockroachDB cluster, please refer to <a href=\"https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-docker-swarm.html\" target=\"_blank\">CockroachDB documentation</a> for production deployments.",
     "categories": ["database"],
@@ -791,6 +832,7 @@
   {
     "type": 2,
     "title": "Wordpress",
+	"name": "Wordpress",
     "description": "Wordpress setup with a MySQL database",
     "note": "Deploys a Wordpress instance connected to a MySQL database.",
     "categories": ["CMS"],
@@ -811,6 +853,7 @@
   {
     "type": 3,
     "title": "Wordpress",
+	"name": "Wordpress",
     "description": "Wordpress setup with a MySQL database",
     "note": "Deploys a Wordpress instance connected to a MySQL database.",
     "categories": ["CMS"],
@@ -831,6 +874,7 @@
   {
     "type": 2,
     "title": "Microsoft OMS Agent",
+	"name": "Microsoft OMS Agent",
     "description": "Microsoft Operations Management Suite Linux agent.",
     "categories": ["OPS"],
     "platform": "linux",
@@ -854,6 +898,7 @@
   },
   {
     "title": "Sematext Docker Agent",
+	"name": "Sematext Docker Agent",
     "type": 2,
     "categories": ["Log Management", "Monitoring"],
     "description": "Collect logs, metrics and docker events",
@@ -876,6 +921,7 @@
   },
   {
     "title": "Datadog agent",
+	"name": "Datadog agent",
     "type": 2,
     "categories": ["Monitoring"],
     "description": "Collect events and metrics",

@@ -131,6 +131,12 @@
     "volumes": [
       {
         "container": "/var/lib/mysql"
+      },
+      {
+        "container": "/var/log/mysql"
+      },
+      {
+        "container": "/etc/mysql/conf.d"
       }
     ]
   },
@@ -157,6 +163,12 @@
     "volumes": [
       {
         "container": "/var/lib/mysql"
+      },
+      {
+        "container": "/var/log/mysql"
+      },
+      {
+        "container": "/etc/mysql/conf.d"
       }
     ]
   },

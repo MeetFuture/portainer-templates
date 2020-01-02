@@ -130,9 +130,10 @@
     ],
     "volumes": [
       {
-        "container": "/opt/dmdbms/data"
+        "container": "/opt/dmdbms/"
       }
-    ]
+    ],
+    "hostname": "dm7"
   },
   {
     "type": 1,

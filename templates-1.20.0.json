@@ -110,6 +110,32 @@
   },
   {
     "type": 1,
+    "title": "DM7",
+    "name": "DM7",
+    "description": "The database dameng 7.6",
+    "categories": [
+      "database"
+    ],
+    "platform": "linux",
+    "logo": "http://www.dameng.com/Images/Public/index/CgAGS1ll4fWAImzKAABEwDEEFE8411.png",
+    "image": "flobit/dm7",
+    "env": [
+      {
+        "name": "DM_DBA_PASSWORD",
+        "label": "DBA password"
+      }
+    ],
+    "ports": [
+      "5236/tcp"
+    ],
+    "volumes": [
+      {
+        "container": "/opt/dmdbms/data"
+      }
+    ]
+  },
+  {
+    "type": 1,
     "title": "MySQL",
     "name": "MySQL",
     "description": "The most popular open-source database",
